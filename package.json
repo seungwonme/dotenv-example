@@ -1,0 +1,35 @@
+{
+  "name": "dotenv-example",
+  "version": "1.0.2",
+  "description": "Generate .env.example from .env files with masked values",
+  "main": "index.js",
+  "bin": {
+    "dotenv-example": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "example",
+    "environment",
+    "config"
+  ],
+  "author": "Aiden Ahn",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungwonme/dotexample.git"
+  },
+  "homepage": "https://github.com/seungwonme/dotexample#readme",
+  "bugs": {
+    "url": "https://github.com/seungwonme/dotexample/issues"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}
