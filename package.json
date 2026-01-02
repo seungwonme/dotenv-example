@@ -1,10 +1,10 @@
 {
-  "name": "dotenv-example",
-  "version": "1.0.2",
+  "name": "@wondev/dotenv-example",
+  "version": "1.0.3",
   "description": "Generate .env.example from .env files with masked values",
   "main": "index.js",
   "bin": {
-    "dotenv-example": "./bin/index.js"
+    "dotenv-example": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,9 @@
   ],
   "author": "Aiden Ahn",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=14.0.0"
   },
